@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "project": {
+    "name": "backend_protofolio"
+  },
+  "api": {
+    "projectId": "hpwynt5j",
+    "dataset": "backend_sanity"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
