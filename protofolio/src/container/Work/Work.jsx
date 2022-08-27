@@ -4,7 +4,7 @@ import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
-
+import { MotionWrap } from '../../wrapper';
 const Work = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
@@ -106,4 +106,4 @@ const Work = () => {
   );
 };
 
-export default AppWrap(Work, 'work');
+export default AppWrap(MotionWrap(Work, 'app__works'), 'work', 'app_whitebg');
