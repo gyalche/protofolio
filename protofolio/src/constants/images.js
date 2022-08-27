@@ -35,8 +35,11 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import school from '../assets/school.jpg';
-
+import logoDawa from '../assets/logoDawa.png';
+import myprofile from '../assets/myprofile.png';
+import pm from '../assets/pm.png';
 export default {
+  myprofile,
   email,
   mobile,
   api,
@@ -71,4 +74,6 @@ export default {
   skype,
   spotify,
   school,
+  logoDawa,
+  pm,
 };
